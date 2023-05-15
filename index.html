@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>drumkitChallenge</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+   <h1>DrumKit Challenge</h1> 
+
+   <img class="drums1" src="images/drums1.png" />
+
+
+   <div>
+
+        <audio id="clapAudio">
+             <source src="./sounds/clap.wav" type="audio/wav">
+        </audio>
+
+        <audio id="hiHatAudio">
+             <source src="./sounds/hihat.wav" type="audio/wav">
+        </audio>
+
+        <audio id="kickAudio">
+            <source src="./sounds/kick.wav" type="audio/wav">
+        </audio>
+
+        <audio id="openHatAudio">
+            <source src="./sounds/openhat.wav" type="audio/wav">
+        </audio>
+
+        <audio id="boomAudio">
+            <source src="./sounds/boom.wav" type="audio/wav">
+        </audio>
+        
+        <audio id="rideAudio">
+            <source src="./sounds/ride.wav" type="audio/wav">
+        </audio>
+
+        <audio id="snareAudio">
+            <source src="./sounds/snare.wav" type="audio/wav">
+        </audio>
+
+        <audio id="tomAudio">
+            <source src="./sounds/tom.wav" type="audio/wav">
+        </audio>
+
+        <audio id="tinkAudio">
+            <source src="./sounds/tink.wav" type="audio/wav">
+        </audio>
+    </div>
+
+    <div class="keyContainer">
+    <button id="btn-a" onclick="playClapAudio()">A</button> 
+    <button id="btn-s" onclick="playHiHatAudio()">S</button>
+    <button id="btn-d" onclick="playKickAudio()">D</button>
+    <button id="btn-f" onclick="playOpenHatAudio()">F</button>
+    <button id="btn-g" onclick="playBoomAudio()">G</button>
+    <button id="btn-h" onclick="playRideAudio()">H</button>
+    <button id="btn-j" onclick="playSnareAudio()">J</button>
+    <button id="btn-k" onclick="playTomAudio()">K</button>
+    <button id="btn-l" onclick="playTinkAudio()">L</button>
+    </div>
+
+ 
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+* {
+    background-color:rgb(237, 211, 211)
+}
+
+h1 {
+    font-size: 20px;
+    color:rgb(147, 103, 110);
+    font-style: italic;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+ font-style: italic;
+ font-size:40px;
+ color: rgb(255, 255, 255);
+ padding: 10x;
+ border: radius 10px;
+ margin: 20px; 
+ background-color:rgb(180, 147, 152)
+ 
+ 
+}
+
+button:hover {
+    transform:translateY(-10px)
+}
+.keyContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .drums1{
+
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:300px;
+    height:170px;
+}
